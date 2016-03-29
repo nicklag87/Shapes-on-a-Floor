@@ -15,6 +15,7 @@
 		408127911CA601F30037B16C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4081278F1CA601F30037B16C /* LaunchScreen.storyboard */; };
 		4081279C1CA601F30037B16C /* Shapes_on_a_FloorTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4081279B1CA601F30037B16C /* Shapes_on_a_FloorTests.swift */; };
 		408127A71CA601F30037B16C /* Shapes_on_a_FloorUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 408127A61CA601F30037B16C /* Shapes_on_a_FloorUITests.swift */; };
+		408127B51CA603180037B16C /* BasicScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = 408127B41CA603180037B16C /* BasicScene.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +50,7 @@
 		408127A21CA601F30037B16C /* Shapes on a FloorUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Shapes on a FloorUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		408127A61CA601F30037B16C /* Shapes_on_a_FloorUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Shapes_on_a_FloorUITests.swift; sourceTree = "<group>"; };
 		408127A81CA601F30037B16C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		408127B41CA603180037B16C /* BasicScene.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BasicScene.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -102,6 +104,7 @@
 				408127841CA601F30037B16C /* AppDelegate.swift */,
 				408127861CA601F30037B16C /* art.scnassets */,
 				408127881CA601F30037B16C /* GameViewController.swift */,
+				408127B41CA603180037B16C /* BasicScene.swift */,
 				4081278A1CA601F30037B16C /* Main.storyboard */,
 				4081278D1CA601F30037B16C /* Assets.xcassets */,
 				4081278F1CA601F30037B16C /* LaunchScreen.storyboard */,
@@ -263,6 +266,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				408127B51CA603180037B16C /* BasicScene.swift in Sources */,
 				408127891CA601F30037B16C /* GameViewController.swift in Sources */,
 				408127851CA601F30037B16C /* AppDelegate.swift in Sources */,
 			);
@@ -491,6 +495,7 @@
 				408127AD1CA601F40037B16C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		408127AE1CA601F40037B16C /* Build configuration list for PBXNativeTarget "Shapes on a FloorTests" */ = {
 			isa = XCConfigurationList;
@@ -499,6 +504,7 @@
 				408127B01CA601F40037B16C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		408127B11CA601F40037B16C /* Build configuration list for PBXNativeTarget "Shapes on a FloorUITests" */ = {
 			isa = XCConfigurationList;
@@ -507,6 +513,7 @@
 				408127B31CA601F40037B16C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
